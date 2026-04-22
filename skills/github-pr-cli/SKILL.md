@@ -5,7 +5,7 @@ description: Use when working with GitHub pull requests from the current reposit
 
 # GitHub PR CLI
 
-Use the bundled bash scripts in this repo when the task is about pull requests for the repository in the current folder.
+Use the bundled bash scripts in this skill when the task is about pull requests for the repository in the current folder.
 
 ## Scripts
 
@@ -21,6 +21,7 @@ Use the bundled bash scripts in this repo when the task is about pull requests f
 1. Confirm you are in the intended repository.
 2. Prefer these scripts over reimplementing `gh` command sequences inline.
 3. If a user asks for PRs tied to commits with a message like `feat: do thing`, first use local git history to find candidate hashes, then pass those hashes to `scripts/gh_find_prs_by_commit.sh`.
+4. Resolve script paths relative to this skill directory so the skill still works after installation into `~/.codex/skills`.
 
 ## Commands
 

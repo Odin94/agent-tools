@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub PR CLI"
+  short_description: "Use git and gh for PR workflows"
+  default_prompt: "Use $github-pr-cli to list open PRs, open a PR from the current branch, or map commits back to pull requests."
